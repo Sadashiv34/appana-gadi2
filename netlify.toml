@@ -1,5 +1,4 @@
 [build]
-  base = "finance-app"
   publish = "out"
   command = "npm run build"
 
