@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   distDir: 'out',
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
 };
 
 export default nextConfig;
